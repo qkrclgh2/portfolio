@@ -71,14 +71,14 @@
             </ul>
             <ul class="jobs">
                 <li class="job">
-                    <img src="./images/20mark.jpeg" alt="20사단">
+                    <img class="job__img" src="./images/20mark.jpeg" alt="20사단">
                     <div>
                         <p class="job__name">제20기계화보병사단 부소대장</p>
                         <p class="job__period">2013 ~ 2019</p>
                     </div>
                 </li>
                 <li class="job">
-                    <img src="./images/11mark.jpeg" alt="11사단">
+                    <img class="job__img" src="./images/11mark.jpeg" alt="11사단">
                     <div>
                         <p class="job__name">제11기동사단 부소대장</p>
                         <p class="job__period">2019 ~ 2024</p>
@@ -166,81 +166,97 @@
             <div class="max-container">
             <h2 class="title">포트폴리오</h2>
             <p class="description">Projects</p>
-            <ul>
-                <li><button>ALL <span>10</span></button></li>
-                <li><button>Front-end <span>3</span></button></li>
-                <li><button>Mobile <span>5</span></button></li>
-                <li><button>Back-end <span>2</span></button></li>
+            <ul class="categories">
+                <li>
+                    <button class="category category--selected">ALL 
+                        <span class="category__count">10</span>
+                    </button>
+                </li>
+                <li>
+                    <button class="category">Fornt-ent 
+                        <span class="category__count">3</span>
+                    </button>
+                </li>
+                <li>
+                    <button class="category">Mobile 
+                        <span class="category__count">5</span>
+                    </button>
+                </li>
+                <li>
+                    <button class="category">Back-end 
+                        <span class="category__count">2</span>
+                    </button>
+                </li>
             </ul>
-            <ul>
-                <li>
+            <ul class="projects">
+                <li class="project">
                     <a href="#" target="_blank">
-                        <img src="./images/portfolio.jpg" alt="project1">
-                        <div>
-                            <h3>Project #1</h3>
+                        <img src="./images/portfolio.jpg" alt="project1" class="project__img">
+                        <div class="project__metadata">
+                            <h3 class="project__title">Project #1</h3>
                             <p>클론코딩 사이트</p>
                         </div>
                     </a>
                 </li>
-                <li>
+                <li class="project">
                     <a href="#" target="_blank">
-                        <img src="./images/portfolio.jpg" alt="project1">
-                        <div>
-                            <h3>Project #1</h3>
+                        <img src="./images/portfolio.jpg" alt="project1" class="project__img">
+                        <div class="project__metadata">
+                            <h3 class="project__title">Project #1</h3>
                             <p>클론코딩 사이트</p>
                         </div>
                     </a>
                 </li>
-                <li>
+                <li class="project">
                     <a href="#" target="_blank">
-                        <img src="./images/portfolio.jpg" alt="project1">
-                        <div>
-                            <h3>Project #1</h3>
+                        <img src="./images/portfolio.jpg" alt="project1" class="project__img">
+                        <div class="project__metadata">
+                            <h3 class="project__title">Project #1</h3>
                             <p>클론코딩 사이트</p>
                         </div>
                     </a>
                 </li>
-                <li>
+                <li class="project">
                     <a href="#" target="_blank">
-                        <img src="./images/portfolio.jpg" alt="project1">
-                        <div>
-                            <h3>Project #1</h3>
+                        <img src="./images/portfolio.jpg" alt="project1" class="project__img">
+                        <div class="project__metadata">
+                            <h3 class="project__title">Project #1</h3>
                             <p>클론코딩 사이트</p>
                         </div>
                     </a>
                 </li>
-                <li>
+                <li class="project">
                     <a href="#" target="_blank">
-                        <img src="./images/portfolio.jpg" alt="project1">
-                        <div>
-                            <h3>Project #1</h3>
+                        <img src="./images/portfolio.jpg" alt="project1" class="project__img">
+                        <div class="project__metadata">
+                            <h3 class="project__title">Project #1</h3>
                             <p>클론코딩 사이트</p>
                         </div>
                     </a>
                 </li>
-                <li>
+                <li class="project">
                     <a href="#" target="_blank">
-                        <img src="./images/portfolio.jpg" alt="project1">
-                        <div>
-                            <h3>Project #1</h3>
+                        <img src="./images/portfolio.jpg" alt="project1" class="project__img">
+                        <div class="project__metadata">
+                            <h3 class="project__title">Project #1</h3>
                             <p>클론코딩 사이트</p>
                         </div>
                     </a>
                 </li>
-                <li>
+                <li class="project">
                     <a href="#" target="_blank">
-                        <img src="./images/portfolio.jpg" alt="project1">
-                        <div>
-                            <h3>Project #1</h3>
+                        <img src="./images/portfolio.jpg" alt="project1" class="project__img">
+                        <div class="project__metadata">
+                            <h3 class="project__title">Project #1</h3>
                             <p>클론코딩 사이트</p>
                         </div>
                     </a>
                 </li>
-                <li>
+                <li class="project">
                     <a href="#" target="_blank">
-                        <img src="./images/portfolio.jpg" alt="project1">
-                        <div>
-                            <h3>Project #1</h3>
+                        <img src="./images/portfolio.jpg" alt="project1" class="project__img">
+                        <div class="project__metadata">
+                            <h3 class="project__title">Project #1</h3>
                             <p>클론코딩 사이트</p>
                         </div>
                     </a>
@@ -253,19 +269,26 @@
         <section id="license" class="section max-container">
             <h2 class="title">자격증</h2>
             <p class="description">국가 기술 자격증</p>
-            <ul>
-                <li>
-                    <img src="./images/license.jpeg" alt="SQLD자격증">
-                    <div>
+            <ul class="licenses">
+                <li class="license">
+                    <img class="license__img" src="./images/license.jpeg" alt="SQLD자격증">
+                    <div class="license__bubble">
+                        <p><a href="#" class="license__bubble__name">한국 데이터 산업진흥회</a></p>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit placeat quisquam rem magni, quod autem dignissimos fugit neque incidunt voluptate! Dicta labore minus ex deleniti dolorum, quos maxime qui dolorem.</p>
-                        <p><a href="#">한국 데이터 산업진흥회</a></p>
                     </div>
                 </li>
-                <li>
-                    <img src="./images/license.jpeg" alt="SQLD자격증">
-                    <div>
+                <li class="license">
+                    <img class="license__img" src="./images/license.jpeg" alt="SQLD자격증">
+                    <div class="license__bubble">
+                        <p><a href="#" class="license__bubble__name">한국 데이터 산업진흥회</a></p>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit placeat quisquam rem magni, quod autem dignissimos fugit neque incidunt voluptate! Dicta labore minus ex deleniti dolorum, quos maxime qui dolorem.</p>
-                        <p><a href="#">한국 데이터 산업진흥회</a></p>
+                    </div>
+                </li>
+                <li class="license">
+                    <img class="license__img" src="./images/license.jpeg" alt="SQLD자격증">
+                    <div class="license__bubble">
+                        <p><a href="#" class="license__bubble__name">한국 데이터 산업진흥회</a></p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit placeat quisquam rem magni, quod autem dignissimos fugit neque incidunt voluptate! Dicta labore minus ex deleniti dolorum, quos maxime qui dolorem.</p>
                     </div>
                 </li>
             </ul>
@@ -273,7 +296,7 @@
 
         <!-- Arrow up -->
         <aside>
-            <a href="#home" title="위로">
+            <a class="arrow-up" href="#home" title="위로">
                 <i class="fa-solid fa-arrow-up"></i>
             </a>
         </aside>
@@ -283,10 +306,10 @@
         <div class="max-container">
         <h2 class="title">연락처</h2>
         <p class="description">qkrclgh2@gmail.com</p>
-        <ul>
-            <li><a href="https://github.com/qkrclgh2" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a></li>
+        <ul class="contact__links">
+            <li><a class="contact__link" href="https://github.com/qkrclgh2" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a></li>
             <!-- 노션 추가 예정 -->
-            <li><a href="https://github.com/qkrclgh2" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a></li>
+            <li><a class="contact__link" href="https://github.com/qkrclgh2" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a></li>
         </ul>
         <p>ⓒ ParkChiHo - All rights reserved</p>
         </div>
