@@ -50,38 +50,38 @@
         <!-- about -->
         <section id="about" class="section max-container">
             <h2 class="title">박치호</h2>
-            <!-- 자기소개 -->
+            <!-- 자기소개 나중에 추가 -->
             <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi dolorum nihil quasi maxime cum et reiciendis, veniam laborum, dolores nam sed, explicabo sapiente dolor? Quaerat maxime animi fuga accusantium soluta.</p>
-            <ul>
-                <li>
-                    <i class="fa-brands fa-html5"></i>
-                    <p>Fromt-end</p>
+            <ul class="majors">
+                <li class="major">
+                    <i class="fa-brands fa-html5 major__icon"></i>
+                    <p class="major__title">Fromt-end</p>
                     <p>HTML, CSS, JavaScript, Node.js, React</p>
                 </li>
-                <li>
-                    <i class="fa-solid fa-mobile"></i>
-                    <p>Mobile</p>
+                <li class="major">
+                    <i class="fa-solid fa-mobile major__icon"></i>
+                    <p class="major__title">Mobile</p>
                     <p>React-Native, Android, iOS, Kotlin</p>
                 </li>
-                <li>
-                    <i class="fa-solid fa-server"></i>
-                    <p>Back-end</p>
+                <li class="major">
+                    <i class="fa-solid fa-server major__icon"></i>
+                    <p class="major__title">Back-end</p>
                     <p>Node.js, FastAPI, Java, GraphQL</p>
                 </li>
             </ul>
-            <ul>
-                <li>
+            <ul class="jobs">
+                <li class="job">
                     <img src="./images/20mark.jpeg" alt="20사단">
                     <div>
-                        <p>제20기계화보병사단 부소대장</p>
-                        <p>2013 ~ 2019</p>
+                        <p class="job__name">제20기계화보병사단 부소대장</p>
+                        <p class="job__period">2013 ~ 2019</p>
                     </div>
                 </li>
-                <li>
+                <li class="job">
                     <img src="./images/11mark.jpeg" alt="11사단">
                     <div>
-                        <p>제11기동사단 부소대장</p>
-                        <p>2019 ~ 2024</p>
+                        <p class="job__name">제11기동사단 부소대장</p>
+                        <p class="job__period">2019 ~ 2024</p>
                     </div>
                 </li>
             </ul>
@@ -90,55 +90,75 @@
         <!-- skills -->
         <section id="skills" class="section">
             <div class="max-container">
-            <h2 class="title">Skills</h2>
-            <p class="description">언어 및 도구</p>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum rerum cum molestiae impedit pariatur a minima sint quos aut qui iure in rem obcaecati voluptatibus culpa, reprehenderit eos voluptates tempora.</p>
-            <div>
-                <section>
-                    <h3>언어</h3>
-                        <ul>
-                            <li>
-                                <div><span>HTML</span><span>40%</span></div>
-                                <div><div style="width: 80%;"></div></div>
-                            </li>
-                            <li>
-                                <div><span>CSS</span><span>50%</span></div>
-                                <div><div style="width: 80%;"></div></div>
-                            </li>
-                            <li>
-                                <div><span>JavaScript</span><span>20%</span></div>
-                                <div><div style="width: 80%;"></div></div>
-                            </li>
-                            <li>
-                                <div><span>React</span><span>10%</span></div>
-                                <div><div style="width: 80%;"></div></div>
-                            </li>
-                            <li>
-                                <div><span>Node.js</span><span>30%</span></div>
-                                <div><div style="width: 80%;"></div></div>
-                            </li>
-                        </ul>
-                </section>
+                <h2 class="title">Skills</h2>
+                <p class="description">언어 및 도구</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum rerum cum molestiae impedit pariatur a minima sint quos aut qui iure in rem obcaecati voluptatibus culpa, reprehenderit eos voluptates tempora.</p>
+                <div class="skills">
+                    <section class="skills__coding">
+                        <h3 class="skills__title">언어</h3>
+                            <ul>
+                                <li class="bar">
+                                    <div class="bar__metadata">
+                                        <span>HTML</span><span>40%</span>
+                                    </div>
+                                    <div class="bar__bg">
+                                        <div class="bar__value" style="width: 40%;"></div>
+                                    </div>
+                                </li>
+                                <li class="bar">
+                                    <div class="bar__metadata">
+                                        <span>CSS</span><span>20%</span>
+                                    </div>
+                                    <div class="bar__bg">
+                                        <div class="bar__value" style="width: 20%;"></div>
+                                    </div>
+                                </li>
+                                <li class="bar">
+                                    <div class="bar__metadata">
+                                        <span>JavaScript</span><span>30%</span>
+                                    </div>
+                                    <div class="bar__bg">
+                                        <div class="bar__value" style="width: 30%;"></div>
+                                    </div>
+                                </li>
+                                <li class="bar">
+                                    <div class="bar__metadata">
+                                        <span>React</span><span>10%</span>
+                                    </div>
+                                    <div class="bar__bg">
+                                        <div class="bar__value" style="width: 10%;"></div>
+                                    </div>
+                                </li>
+                                <li class="bar">
+                                    <div class="bar__metadata">
+                                        <span>Node.js</span><span>70%</span>
+                                    </div>
+                                    <div class="bar__bg">
+                                        <div class="bar__value" style="width: 70%;"></div>
+                                    </div>
+                                </li>
+                            </ul>
+                    </section>
 
-                <section>
-                    <h3>도구</h3>
-                    <ul>
-                        <li>Visual Studio Code</li>
-                        <li>Pycharm</li>
-                        <li>Jupyter notebook</li>
-                        <li>Colab</li>
-                        <li>Xcode</li>
-                    </ul>
-                </section>
-                <section>
-                    <h3>기타</h3>
-                    <ul>
-                        <li>Git</li>
-                        <li>수학</li>
-                    </ul>
-                </section>
+                    <section class="skills__tools">
+                        <h3 class="skills__title">도구</h3>
+                        <ul>
+                            <li>Visual Studio Code</li>
+                            <li>Pycharm</li>
+                            <li>Jupyter notebook</li>
+                            <li>Colab</li>
+                            <li>Xcode</li>
+                        </ul>
+                    </section>
+                    <section class="skills__etc">
+                        <h3 class="skills__title">기타</h3>
+                        <ul>
+                            <li>Git</li>
+                            <li>수학</li>
+                        </ul>
+                    </section>
+                </div>
             </div>
-        </div>
         </section>
 
         <!-- work -->
