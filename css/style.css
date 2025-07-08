@@ -436,7 +436,7 @@ button:focus { outline: 1px solid var(--color-accent); }
     height: 4.5rem;
     border-radius: 100%;
     text-align: center;
-    box-shadow: 5px 5px 0px 0px var(--color-accent);
+    box-shadow: 5px 5px 0px 0px var(--color-white);
     transition: opacity 300ms ease-in;
 }
 
